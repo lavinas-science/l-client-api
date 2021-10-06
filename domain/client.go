@@ -37,7 +37,7 @@ type Client struct {
 
 // Validate is a Client method that validate if the fields are in the right expected format
 func (c *Client) Validate() error {
-	// validate
+	// fuck
 	v := validator.New()
 	return v.Struct(c)
 }
